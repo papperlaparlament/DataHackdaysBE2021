@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Behoerdenmandat OBJ_GUID="00017eb6cf2e443a92cfb4de46cd8ca9" SEQ="34660847" IDX="Mitgliedschaften" xmlns="http://www.cmiag.ch/cdws/Mitgliedschaften" xmlns:cmi="http://cmiag.ch">
+	<Gremium>
+		<Gremium OBJ_GUID="12b50a84e7454cdfbe82a10b3e703386">
+			<Guid>12b50a84e7454cdfbe82a10b3e703386</Guid>
+		</Gremium>
+	</Gremium>
+	<Dauer>
+		<Start>2014-06-01T00:00:00.000</Start>
+		<End>9999-12-31T23:59:59.000</End>
+		<Text>01.06.2014 - </Text>
+	</Dauer>
+	<Person>
+		<Kontakt OBJ_GUID="423a7208a3cc440bb5f5ee482a09d858">
+			<Guid>423a7208a3cc440bb5f5ee482a09d858</Guid>
+		</Kontakt>
+	</Person>
+	<Sitz/>
+	<Funktion>
+		<de_CH>Mitglied</de_CH>
+		<fr_CH>Membre</fr_CH>
+	</Funktion>
+	<FunktionSortKey>5</FunktionSortKey>
+</Behoerdenmandat>

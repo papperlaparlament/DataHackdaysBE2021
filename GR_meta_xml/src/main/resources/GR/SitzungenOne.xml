@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sitzung OBJ_GUID="03a5a177797d47fdaedaba367dcc0708" SEQ="34649878" IDX="Sitzungen" xmlns="http://www.cmiag.ch/cdws/Sitzungen" xmlns:cmi="http://cmiag.ch">
+    <Sessionsunterlagen/>
+    <Sessionsdaten/>
+    <Traktanden>
+        <Traktandum OBJ_GUID="3c3e3b901c0f4d3e89480719db414ab5">
+            <Guid>3c3e3b901c0f4d3e89480719db414ab5</Guid>
+        </Traktandum>
+        <Traktandum OBJ_GUID="47e8bf5ba51a48dd8b2186c8afbb7ed2">
+            <Guid>47e8bf5ba51a48dd8b2186c8afbb7ed2</Guid>
+        </Traktandum>
+        <Traktandum OBJ_GUID="8f88b84659094cab9836e1816e9aced6">
+            <Guid>8f88b84659094cab9836e1816e9aced6</Guid>
+        </Traktandum>
+        <Traktandum OBJ_GUID="c9d35b8cb6174756a6cd54f08cf54388">
+            <Guid>c9d35b8cb6174756a6cd54f08cf54388</Guid>
+        </Traktandum>
+        <Traktandum OBJ_GUID="07013654b5144d85b8db25269c89d388">
+            <Guid>07013654b5144d85b8db25269c89d388</Guid>
+        </Traktandum>
+        <Traktandum OBJ_GUID="1bdd897eab4f4573949488153c217706">
+            <Guid>1bdd897eab4f4573949488153c217706</Guid>
+        </Traktandum>
+        <Traktandum OBJ_GUID="09a46b6b10b24e2ca943dae813a1d696">
+            <Guid>09a46b6b10b24e2ca943dae813a1d696</Guid>
+        </Traktandum>
+        <Traktandum OBJ_GUID="9322e7bf70e348569a36e4087b09e174">
+            <Guid>9322e7bf70e348569a36e4087b09e174</Guid>
+        </Traktandum>
+        <Traktandum OBJ_GUID="6287cf28b8014a49b171e7293204965e">
+            <Guid>6287cf28b8014a49b171e7293204965e</Guid>
+        </Traktandum>
+        <Traktandum OBJ_GUID="0caab6cb4b8940edb4283ddc19b8caea">
+            <Guid>0caab6cb4b8940edb4283ddc19b8caea</Guid>
+        </Traktandum>
+        <Traktandum OBJ_GUID="8bc511eefac3480a999d8b2a4560bc4c">
+            <Guid>8bc511eefac3480a999d8b2a4560bc4c</Guid>
+        </Traktandum>
+        <Traktandum OBJ_GUID="a070350a946a438a9e5f2bfa21b9cdfa">
+            <Guid>a070350a946a438a9e5f2bfa21b9cdfa</Guid>
+        </Traktandum>
+        <Traktandum OBJ_GUID="0c1cb8f56e7c4971bc62f294d63430c4">
+            <Guid>0c1cb8f56e7c4971bc62f294d63430c4</Guid>
+        </Traktandum>
+        <Traktandum OBJ_GUID="3fd27f398c634c2e8ec2f4d020f03bbd">
+            <Guid>3fd27f398c634c2e8ec2f4d020f03bbd</Guid>
+        </Traktandum>
+    </Traktanden>
+    <Name>
+        <de_CH>Regierungssitzung vom 2. November 2011</de_CH>
+        <fr_CH>Séance du Conseil-exécutif du 2 novembre 2011</fr_CH>
+    </Name>
+</Sitzung>

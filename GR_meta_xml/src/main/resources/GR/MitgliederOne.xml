@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Kontakt OBJ_GUID="000fdc02bf3d4cebb9ab4d98a11d5c33" SEQ="34650417" IDX="Mitglieder" xmlns="http://www.cmiag.ch/cdws/Mitglieder" xmlns:cmi="http://cmiag.ch">
+			<Bild ID="000fdc02bf3d4cebb9ab4d98a11d5c33-1664" FileName="Iannino_Gerber_Maria_Esther">
+				<Version Nr="34">
+					<Rendition Extension="jpg" Ansicht="Original"/>
+					<Rendition Extension="jpg" Ansicht="Thumbnail"/>
+					<Rendition Extension="jpg" Ansicht="Portrait"/>
+				</Version>
+			</Bild>
+			<Name>Iannino Gerber</Name>
+			<Vorname>Maria Esther</Vorname>
+			<Mitgliedschaften>
+				<Behoerdenmandat OBJ_GUID="93b52892ccbf41349f0f016ccc2abfc1">
+					<Guid>93b52892ccbf41349f0f016ccc2abfc1</Guid>
+				</Behoerdenmandat>
+				<Behoerdenmandat OBJ_GUID="3bbe4444240345019ff84543b76e27f7">
+					<Guid>3bbe4444240345019ff84543b76e27f7</Guid>
+				</Behoerdenmandat>
+				<Behoerdenmandat OBJ_GUID="669446f97bb04d3c9a5ab0fb53de95bf">
+					<Guid>669446f97bb04d3c9a5ab0fb53de95bf</Guid>
+				</Behoerdenmandat>
+				<Behoerdenmandat OBJ_GUID="f83cff94c16349db867f6f3f9408d829">
+					<Guid>f83cff94c16349db867f6f3f9408d829</Guid>
+				</Behoerdenmandat>
+				<Behoerdenmandat OBJ_GUID="20875649a407421b8641fd525826bd74">
+					<Guid>20875649a407421b8641fd525826bd74</Guid>
+				</Behoerdenmandat>
+				<Behoerdenmandat OBJ_GUID="52497ab0b8f9483eacfbc3a4cacbd160">
+					<Guid>52497ab0b8f9483eacfbc3a4cacbd160</Guid>
+				</Behoerdenmandat>
+				<Behoerdenmandat OBJ_GUID="168e7dae38f94934af4ae1b931e2b55c">
+					<Guid>168e7dae38f94934af4ae1b931e2b55c</Guid>
+				</Behoerdenmandat>
+				<Behoerdenmandat OBJ_GUID="43e9ecdf9cc44e8da5545490e3626f98">
+					<Guid>43e9ecdf9cc44e8da5545490e3626f98</Guid>
+				</Behoerdenmandat>
+				<Behoerdenmandat OBJ_GUID="b5a534f85fec44dea82adeaba1f1bed3">
+					<Guid>b5a534f85fec44dea82adeaba1f1bed3</Guid>
+				</Behoerdenmandat>
+				<Behoerdenmandat OBJ_GUID="60399b0370f344e09131acc4a3559f8e">
+					<Guid>60399b0370f344e09131acc4a3559f8e</Guid>
+				</Behoerdenmandat>
+				<Behoerdenmandat OBJ_GUID="62a8e62bca234aa48026405d53af08d2">
+					<Guid>62a8e62bca234aa48026405d53af08d2</Guid>
+				</Behoerdenmandat>
+				<Behoerdenmandat OBJ_GUID="7ebe3f766214485c8004b00f15d9c6af">
+					<Guid>7ebe3f766214485c8004b00f15d9c6af</Guid>
+				</Behoerdenmandat>
+				<Behoerdenmandat OBJ_GUID="a88a1e01eb8b48e6bd8fd98f86dd1063">
+					<Guid>a88a1e01eb8b48e6bd8fd98f86dd1063</Guid>
+				</Behoerdenmandat>
+				<Behoerdenmandat OBJ_GUID="2214234fe8064d53913f8637fd6595da">
+					<Guid>2214234fe8064d53913f8637fd6595da</Guid>
+				</Behoerdenmandat>
+				<Behoerdenmandat OBJ_GUID="f196a64a5c5043f48fb1eaf5c86944b3">
+					<Guid>f196a64a5c5043f48fb1eaf5c86944b3</Guid>
+				</Behoerdenmandat>
+				<Behoerdenmandat OBJ_GUID="65a07d5bb98e4a65b9303d9d9a60cfa0">
+					<Guid>65a07d5bb98e4a65b9303d9d9a60cfa0</Guid>
+				</Behoerdenmandat>
+				<Behoerdenmandat OBJ_GUID="5a760733da9e43c9ad72b2450671179c">
+					<Guid>5a760733da9e43c9ad72b2450671179c</Guid>
+				</Behoerdenmandat>
+				<Behoerdenmandat OBJ_GUID="aa9f6412f35b4344bf4c1f5cce087dab">
+					<Guid>aa9f6412f35b4344bf4c1f5cce087dab</Guid>
+				</Behoerdenmandat>
+				<Behoerdenmandat OBJ_GUID="d3266411675a4ddc9e26771f3bd8fcae">
+					<Guid>d3266411675a4ddc9e26771f3bd8fcae</Guid>
+				</Behoerdenmandat>
+				<Behoerdenmandat OBJ_GUID="25c724a6307b471e8e757083dc1f7d88">
+					<Guid>25c724a6307b471e8e757083dc1f7d88</Guid>
+				</Behoerdenmandat>
+				<Behoerdenmandat OBJ_GUID="8386c28a803441f58cca79007fb9fa15">
+					<Guid>8386c28a803441f58cca79007fb9fa15</Guid>
+				</Behoerdenmandat>
+				<Behoerdenmandat OBJ_GUID="faf699df6e5e41a0a88d5c524add4562">
+					<Guid>faf699df6e5e41a0a88d5c524add4562</Guid>
+				</Behoerdenmandat>
+				<Behoerdenmandat OBJ_GUID="e4ba3da152ac40fa94c8812df6141f21">
+					<Guid>e4ba3da152ac40fa94c8812df6141f21</Guid>
+				</Behoerdenmandat>
+				<Behoerdenmandat OBJ_GUID="dd515ec147b5490ab39d55fd4b5f831b">
+					<Guid/>
+				</Behoerdenmandat>
+				<Behoerdenmandat OBJ_GUID="4a6c38b84fdc405ab4bcca35fef69d40">
+					<Guid>4a6c38b84fdc405ab4bcca35fef69d40</Guid>
+				</Behoerdenmandat>
+			</Mitgliedschaften>
+			<Geschaefte>
+				<Beteiligung OBJ_GUID="6b39011c5eb54b08bf57b7ad6a0b854e">
+					<Guid>c10b9f218d1c4127b61eed706a2769df</Guid>
+				</Beteiligung>
+				<Beteiligung OBJ_GUID="6ef6792cef014068802bc7db741ef67b">
+					<Guid>c86af1de69084950855cdb522691b820</Guid>
+				</Beteiligung>
+				<Beteiligung OBJ_GUID="df79ebd0e5c8483a9c6bd6df721a9ca4">
+					<Guid>fb11e01857bc4d569769f499f69b9975</Guid>
+				</Beteiligung>
+				<Beteiligung OBJ_GUID="0f85cb9fab434cf2b497ec32a39251fc">
+					<Guid>20e7bb3073de4454b410251b510cb411</Guid>
+				</Beteiligung>
+				<Beteiligung OBJ_GUID="2f4f5c1277f54513976f28b5a604c3a4">
+					<Guid>34a6f1f3b1284a518d168c33575287fd</Guid>
+				</Beteiligung>
+				<Beteiligung OBJ_GUID="ce17b2c7e24849b1a76657193b0db836">
+					<Guid>b3ba8cf759f54a718e43ab687e9b46fe</Guid>
+				</Beteiligung>
+				<Beteiligung OBJ_GUID="b2d915c9291342fcb2bbff6acc29cc65">
+					<Guid>44737076303d45ea9fe3f6322b26ece4</Guid>
+				</Beteiligung>
+				<Beteiligung OBJ_GUID="cb30819aa1794b268804ee6c06258324">
+					<Guid>875a53b4f0aa43fe902dcbb6ac2719f3</Guid>
+				</Beteiligung>
+				<Beteiligung OBJ_GUID="3659bf5990a84bd4a29a0e0b2fb01bda">
+					<Guid>4fba1047ad6e486e9f9a7fbcf1853ea0</Guid>
+				</Beteiligung>
+				<Beteiligung OBJ_GUID="250b3498cdea455782240ebab2a5c530">
+					<Guid>a72864d308d74a3698b548eb759ee31f</Guid>
+				</Beteiligung>
+				<Beteiligung OBJ_GUID="4b1822acdb6445a794d82b01f390e3bb">
+					<Guid>e8c4bf9e764e44c0bf6887a3c27f8d61</Guid>
+				</Beteiligung>
+				<Beteiligung OBJ_GUID="45281ec9e7f84083b6b2188b5997e32e">
+					<Guid>f63cd96fe3a2490a9fdd1e6a82b9fcfd</Guid>
+				</Beteiligung>
+				<Beteiligung OBJ_GUID="9cd6c2805f3a4d588897d25f6b6f48f5">
+					<Guid>d2a568c7385e4772b4a219457b3e31e0</Guid>
+				</Beteiligung>
+				<Beteiligung OBJ_GUID="53b28ea64c824dfa98a86e7298155750">
+					<Guid>43687190e5734ae9bc2ea1978ae30313</Guid>
+				</Beteiligung>
+				<Beteiligung OBJ_GUID="8d6d62cdd51a406b8130fe9eddd43eba">
+					<Guid>6701c99fed7f4d5f94f1e0f650313aa8</Guid>
+				</Beteiligung>
+				<Beteiligung OBJ_GUID="b6e2e82b74014ce4a6cf0fe5c2fc3d4c">
+					<Guid>adf066508b5044239b51b38146231ed8</Guid>
+				</Beteiligung>
+				<Beteiligung OBJ_GUID="880d3eae8d134896a4ddd1ee927b6ef9">
+					<Guid>06082c1773104c4c8707713cf2cf537a</Guid>
+				</Beteiligung>
+				<Beteiligung OBJ_GUID="7297fe2297c143f6b7281271cccfd95a">
+					<Guid>3ac599fadf1d42f58082aeb46ae94bf8</Guid>
+				</Beteiligung>
+				<Beteiligung OBJ_GUID="58e7496fbf23454f8ac16c144fc8d330">
+					<Guid>dba6e1d865124610906e204e6c97385b</Guid>
+				</Beteiligung>
+			</Geschaefte>
+			<Intressenbindungen>
+				<Interessenbindung OBJ_GUID="cd42954c99a74a0eaf6257856167f8e8">
+					<Type>
+						<de_CH>C</de_CH>
+						<fr_CH>C</fr_CH>
+					</Type>
+					<Name>Sozialbehörde Wohlen</Name>
+						<de_CH>Präsidentin</de_CH>
+						<fr_CH>Présidente</fr_CH>
+					<Gremium>
+						<de_CH>-</de_CH>
+						<fr_CH>-</fr_CH>
+					</Gremium>
+					<Dauer>
+						<Start>2014-05-09T00:00:00.000</Start>
+						<End>9999-12-31T23:59:59.000</End>
+						<Text>09.05.2014 - </Text>
+					</Dauer>
+				</Interessenbindung>
+				<Interessenbindung OBJ_GUID="012c7f8558f645a98b6eca93acd2d683">
+					<Type>
+						<de_CH>A</de_CH>
+						<fr_CH>A</fr_CH>
+					</Type>
+					<Name>Sammelstiftung Abendrot, Basel</Name>
+						<de_CH>Mitglied/Beisitzerin</de_CH>
+						<fr_CH>Membre/assesseur</fr_CH>
+					<Gremium>
+						<de_CH>Stiftungsrat</de_CH>
+						<fr_CH>Conseil de fondation</fr_CH>
+					</Gremium>
+					<Dauer>
+						<Start>2010-06-01T00:00:00.000</Start>
+						<End>9999-12-31T23:59:59.000</End>
+						<Text>01.06.2010 - </Text>
+					</Dauer>
+				</Interessenbindung>
+				<Interessenbindung OBJ_GUID="e470d3df40e54a7387581eae5a653514">
+					<Type>
+						<de_CH>A</de_CH>
+						<fr_CH>A</fr_CH>
+					</Type>
+					<Name>Gewerbeverein Wohlen</Name>
+						<de_CH>Mitglied/Beisitzerin</de_CH>
+						<fr_CH>Membre/assesseur</fr_CH>
+					<Gremium>
+						<de_CH>Ausschuss/Vorstand</de_CH>
+						<fr_CH>Comité directeur</fr_CH>
+					</Gremium>
+					<Dauer>
+						<Start>2014-03-18T00:00:00.000</Start>
+						<End>9999-12-31T23:59:59.000</End>
+						<Text>18.03.2014 - </Text>
+					</Dauer>
+				</Interessenbindung>
+				<Interessenbindung OBJ_GUID="233d51f1dc7c40a2b9850908e9f16ebf">
+					<Type>
+						<de_CH>A</de_CH>
+						<fr_CH>A</fr_CH>
+					</Type>
+					<Name>Informationsstelle für Ausländerinnen und Ausländer isa</Name>
+						<de_CH>Vizepräsidentin</de_CH>
+						<fr_CH>Vice-présidente</fr_CH>
+					<Gremium>
+						<de_CH>-</de_CH>
+						<fr_CH>-</fr_CH>
+					</Gremium>
+					<Dauer>
+						<Start>2014-03-18T00:00:00.000</Start>
+						<End>9999-12-31T23:59:59.000</End>
+						<Text>18.03.2014 - </Text>
+					</Dauer>
+				</Interessenbindung>
+				<Interessenbindung OBJ_GUID="e15331d5fd9d4d7391adfb034f9b1fae">
+					<Type>
+						<de_CH>D</de_CH>
+						<fr_CH>D</fr_CH>
+					</Type>
+					<Name>Grüne Partei der Schweiz (Kassierin)</Name>
+						<de_CH>Mitglied/Beisitzerin</de_CH>
+						<fr_CH>Membre/assesseur</fr_CH>
+					<Gremium>
+						<de_CH>-</de_CH>
+						<fr_CH>-</fr_CH>
+					</Gremium>
+					<Dauer>
+						<Start>2014-05-09T00:00:00.000</Start>
+						<End>9999-12-31T23:59:59.000</End>
+						<Text>09.05.2014 - </Text>
+					</Dauer>
+				</Interessenbindung>
+				<Interessenbindung OBJ_GUID="887a0f253ac1453795569a7404f2c9b8">
+					<Type>
+						<de_CH>C</de_CH>
+						<fr_CH>C</fr_CH>
+					</Type>
+					<Name>Kantonale Integrationskommission</Name>
+						<de_CH>Mitglied/Beisitzerin</de_CH>
+						<fr_CH>Membre/assesseur</fr_CH>
+					<Gremium>
+						<de_CH>-</de_CH>
+						<fr_CH>-</fr_CH>
+					</Gremium>
+					<Dauer>
+						<Start>2014-03-18T00:00:00.000</Start>
+						<End>9999-12-31T23:59:59.000</End>
+						<Text>18.03.2014 - </Text>
+					</Dauer>
+				</Interessenbindung>
+				<Interessenbindung OBJ_GUID="b4f4322a0a3c400e8420c04926c49783">
+					<Type>
+						<de_CH>D</de_CH>
+						<fr_CH>D</fr_CH>
+					</Type>
+					<Name>Grüne Wohlen</Name>
+						<de_CH>Präsidentin</de_CH>
+						<fr_CH>Présidente</fr_CH>
+					<Gremium>
+						<de_CH>Ausschuss/Vorstand</de_CH>
+						<fr_CH>Comité directeur</fr_CH>
+					</Gremium>
+					<Dauer>
+						<Start>2010-02-17T00:00:00.000</Start>
+						<End>9999-12-31T23:59:59.000</End>
+						<Text>17.02.2010 - </Text>
+					</Dauer>
+				</Interessenbindung>
+				<Interessenbindung OBJ_GUID="f1b40c5f4df04be48868fb51c6334e68">
+					<Type>
+						<de_CH>C</de_CH>
+						<fr_CH>C</fr_CH>
+					</Type>
+					<Name>Gemeinderätin Gemeinde Wohlen (Departementsvorsteherin Soziales)</Name>
+						<de_CH>Mitglied/Beisitzerin</de_CH>
+						<fr_CH>Membre/assesseur</fr_CH>
+					<Gremium>
+						<de_CH>-</de_CH>
+						<fr_CH>-</fr_CH>
+					</Gremium>
+					<Dauer>
+						<Start>2014-03-18T00:00:00.000</Start>
+						<End>9999-12-31T23:59:59.000</End>
+						<Text>18.03.2014 - </Text>
+					</Dauer>
+				</Interessenbindung>
+				<Interessenbindung OBJ_GUID="f8ebc06b27d2404e8fd4f9325d720b2f">
+					<Type>
+						<de_CH>A</de_CH>
+						<fr_CH>A</fr_CH>
+					</Type>
+					<Name>Stiftung Swiss Engineering, Zürich</Name>
+						<de_CH>Mitglied/Beisitzerin</de_CH>
+						<fr_CH>Membre/assesseur</fr_CH>
+					<Gremium>
+						<de_CH>Stiftungsrat</de_CH>
+						<fr_CH>Conseil de fondation</fr_CH>
+					</Gremium>
+					<Dauer>
+						<Start>2014-05-09T00:00:00.000</Start>
+						<End>9999-12-31T23:59:59.000</End>
+						<Text>09.05.2014 - </Text>
+					</Dauer>
+				</Interessenbindung>
+				<Interessenbindung OBJ_GUID="c5c62e1458164b45a228f16b1920b180">
+					<Type>
+						<de_CH>A</de_CH>
+						<fr_CH>A</fr_CH>
+					</Type>
+					<Name>Swiss Engineering, Zürich (Zentralvorstand)</Name>
+						<de_CH>Mitglied/Beisitzerin</de_CH>
+						<fr_CH>Membre/assesseur</fr_CH>
+					<Gremium>
+						<de_CH>Ausschuss/Vorstand</de_CH>
+						<fr_CH>Comité directeur</fr_CH>
+					</Gremium>
+					<Dauer>
+						<Start>2010-02-17T00:00:00.000</Start>
+						<End>9999-12-31T23:59:59.000</End>
+						<Text>17.02.2010 - </Text>
+					</Dauer>
+				</Interessenbindung>
+				<Interessenbindung OBJ_GUID="3e2693950cb946e19bc57d100bbe8ab2">
+					<Type>
+						<de_CH>D</de_CH>
+						<fr_CH>D</fr_CH>
+					</Type>
+					<Name>Grüne Mittelland-Nord</Name>
+						<de_CH>Mitglied/Beisitzerin</de_CH>
+						<fr_CH>Membre/assesseur</fr_CH>
+					<Gremium>
+						<de_CH>Ausschuss/Vorstand</de_CH>
+						<fr_CH>Comité directeur</fr_CH>
+					</Gremium>
+					<Dauer>
+						<Start>2010-02-17T00:00:00.000</Start>
+						<End>9999-12-31T23:59:59.000</End>
+						<Text>17.02.2010 - </Text>
+					</Dauer>
+				</Interessenbindung>
+				<Interessenbindung OBJ_GUID="3cf1b959de0f47bfa35d239299b68003">
+					<Type>
+						<de_CH>A</de_CH>
+						<fr_CH>A</fr_CH>
+					</Type>
+					<Name>Stiftung Hilfskasse STV, Zürich</Name>
+						<de_CH>Mitglied/Beisitzerin</de_CH>
+						<fr_CH>Membre/assesseur</fr_CH>
+					<Gremium>
+						<de_CH>Stiftungsrat</de_CH>
+						<fr_CH>Conseil de fondation</fr_CH>
+					</Gremium>
+					<Dauer>
+						<Start>2014-05-09T00:00:00.000</Start>
+						<End>9999-12-31T23:59:59.000</End>
+						<Text>09.05.2014 - </Text>
+					</Dauer>
+				</Interessenbindung>
+				<Interessenbindung OBJ_GUID="6d2d5785a3b348ca87b3a55d08332994">
+					<Type>
+						<de_CH>A</de_CH>
+						<fr_CH>A</fr_CH>
+					</Type>
+					<Name>Stiftung der Schweizerischen Register, Bern</Name>
+						<de_CH>Vizepräsidentin</de_CH>
+						<fr_CH>Vice-présidente</fr_CH>
+					<Gremium>
+						<de_CH>Stiftungsrat</de_CH>
+						<fr_CH>Conseil de fondation</fr_CH>
+					</Gremium>
+					<Dauer>
+						<Start>2014-05-09T00:00:00.000</Start>
+						<End>9999-12-31T23:59:59.000</End>
+						<Text>09.05.2014 - </Text>
+					</Dauer>
+				</Interessenbindung>
+				<Interessenbindung OBJ_GUID="f86a27e305f141d7a9bc04b726eb1077">
+					<Type>
+						<de_CH>A</de_CH>
+						<fr_CH>A</fr_CH>
+					</Type>
+					<Name>Amarena AG, Hinterkappelen</Name>
+						<de_CH>Präsidentin</de_CH>
+						<fr_CH>Présidente</fr_CH>
+					<Gremium>
+						<de_CH>Verwaltungsrat</de_CH>
+						<fr_CH>Conseil d'administration</fr_CH>
+					</Gremium>
+					<Dauer>
+						<Start>2010-02-17T00:00:00.000</Start>
+						<End>9999-12-31T23:59:59.000</End>
+						<Text>17.02.2010 - </Text>
+					</Dauer>
+				</Interessenbindung>
+				<Interessenbindung OBJ_GUID="b9ca07d3d78b423b884cb3d19908325b">
+					<Type>
+						<de_CH>A</de_CH>
+						<fr_CH>A</fr_CH>
+					</Type>
+					<Name>VCS Kanton Bern</Name>
+						<de_CH>Präsidentin</de_CH>
+						<fr_CH>Présidente</fr_CH>
+					<Gremium>
+						<de_CH>Ausschuss/Vorstand</de_CH>
+						<fr_CH>Comité directeur</fr_CH>
+					</Gremium>
+					<Dauer>
+						<Start>2014-05-09T00:00:00.000</Start>
+						<End>9999-12-31T23:59:59.000</End>
+						<Text>09.05.2014 - </Text>
+					</Dauer>
+				</Interessenbindung>
+				<Interessenbindung OBJ_GUID="264d1a64231d4aaa81cbf48285bd4ffa">
+					<Type>
+						<de_CH>A</de_CH>
+						<fr_CH>A</fr_CH>
+					</Type>
+					<Name>Anlagenausschuss der Sammelstiftung Abendbrot, Basel</Name>
+						<de_CH>Mitglied/Beisitzerin</de_CH>
+						<fr_CH>Membre/assesseur</fr_CH>
+					<Gremium>
+						<de_CH>Ausschuss/Vorstand</de_CH>
+						<fr_CH>Comité directeur</fr_CH>
+					</Gremium>
+					<Dauer>
+						<Start>2014-05-09T00:00:00.000</Start>
+						<End>9999-12-31T23:59:59.000</End>
+						<Text>09.05.2014 - </Text>
+					</Dauer>
+				</Interessenbindung>
+				<Interessenbindung OBJ_GUID="c5fe422ae3054d58b8508145db0691c1">
+					<Type>
+						<de_CH/>
+						<fr_CH/>
+					</Type>
+					<Name>Anlagenausschuss der Sammelstiftung Abendbrot, Basel</Name>
+						<de_CH>Mitglied/Beisitzerin</de_CH>
+						<fr_CH>Membre/assesseur</fr_CH>
+					<Gremium>
+						<de_CH>Ausschuss/Vorstand</de_CH>
+						<fr_CH>Comité directeur</fr_CH>
+					</Gremium>
+					<Dauer>
+						<Start>2014-05-09T00:00:00.000</Start>
+						<End>9999-12-31T23:59:59.000</End>
+						<Text>09.05.2014 - </Text>
+					</Dauer>
+				</Interessenbindung>
+				<Interessenbindung OBJ_GUID="bb62bec3bbf84515a22cc1a11fad67c5">
+					<Type>
+						<de_CH>C</de_CH>
+						<fr_CH>C</fr_CH>
+					</Type>
+					<Name>Geschäfts- und Ergebnisprüfungskommission der Gemeinde Wohlen</Name>
+						<de_CH>Vizepräsidentin</de_CH>
+						<fr_CH>Vice-présidente</fr_CH>
+					<Gremium>
+						<de_CH>-</de_CH>
+						<fr_CH>-</fr_CH>
+					</Gremium>
+					<Dauer>
+						<Start>2010-02-17T00:00:00.000</Start>
+						<End>2014-03-18T00:00:00.000</End>
+						<Text>17.02.2010 - 17.03.2014</Text>
+					</Dauer>
+				</Interessenbindung>
+				<Interessenbindung OBJ_GUID="cd3b783d78304fb4b789acc0ba8d2229">
+					<Type>
+						<de_CH/>
+						<fr_CH/>
+					</Type>
+					<Name>Parlamentarierskitag</Name>
+						<de_CH/>
+						<fr_CH/>
+					<Gremium>
+						<de_CH/>
+						<fr_CH/>
+					</Gremium>
+					<Dauer>
+						<Start>2019-12-01T00:00:00.000</Start>
+						<End>9999-12-31T23:59:59.000</End>
+						<Text>01.12.2019 - </Text>
+					</Dauer>
+				</Interessenbindung>
+			</Intressenbindungen>
+			<Partei>
+				<de_CH>Grüne</de_CH>
+				<fr_CH>Les Verts</fr_CH>
+			</Partei>
+			<Wahlkreis>
+				<de_CH>Mittelland-Nord</de_CH>
+				<fr_CH>Mittelland septentrional</fr_CH>
+			</Wahlkreis>
+			<Homepage>www.iannino.ch</Homepage>
+			<Ledigname/>
+			<ParteiZusammengesetzt>
+				<de_CH>Grüne Grüne Kanton Bern</de_CH>
+				<fr_CH>Les Verts Les Verts Canton de Berne</fr_CH>
+			</ParteiZusammengesetzt>
+			<Beruf>
+				<de_CH>IT- und Wirtschaftsingenieurin FH/STV</de_CH>
+				<fr_CH>ing. IT et de gestion dipl.</fr_CH>
+			</Beruf>
+			<Wohnort>Hinterkappelen</Wohnort>
+			<BildVerwendung>true</BildVerwendung>
+			<Fraktion>
+				<de_CH>Grüne</de_CH>
+				<fr_CH>Les Verts</fr_CH>
+			</Fraktion>
+			<AkademischerTitel>
+				<de_CH/>
+				<fr_CH/>
+			</AkademischerTitel>
+		</Kontakt>
