@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema targetNamespace="http://www.cmiag.ch/cdws/RRMitgliedschaften" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.cmiag.ch/cdws/RRMitgliedschaften">
+	<xsd:annotation>
+		<xsd:documentation>
+			<SearchField xsi:type="SearchFieldText" Name="Guid" BoostFactor="1" Nrs="4" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+			<SearchField xsi:type="SearchFieldDate" Name="Dauer" BoostFactor="1" Nrs="5" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+			<SearchField xsi:type="SearchFieldText" Name="Person" BoostFactor="1" Nrs="9;10" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+			<SearchField xsi:type="SearchFieldNumeric" Name="FunktionSortKey" BoostFactor="1" Nrs="13" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+			<SearchField xsi:type="SearchFieldText" Name="NameVorname" BoostFactor="1" Nrs="14" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+			<SearchField xsi:type="SearchFieldText" Name="Nachname" BoostFactor="1" Nrs="15" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+		</xsd:documentation>
+	</xsd:annotation>
+	<xsd:complexType name="Mitgliedschaft">
+		<xsd:sequence>
+			<xsd:element name="Gremium">
+				<xsd:complexType>
+					<xsd:choice minOccurs="0" maxOccurs="1">
+						<xsd:element name="Gremium" type="Gremium"/>
+					</xsd:choice>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="Dauer" type="DateTimeFieldType"/>
+			<xsd:element name="Person">
+				<xsd:complexType>
+					<xsd:choice minOccurs="0" maxOccurs="1">
+						<xsd:element name="Kontakt" type="Person"/>
+					</xsd:choice>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="Sitz" type="xsd:decimal" nillable="true"/>
+			<xsd:element name="Funktion" type="MultiLangTextFieldType"/>
+			<xsd:element name="FunktionSortKey" type="xsd:decimal" nillable="true"/>
+		</xsd:sequence>
+		<xsd:attribute name="OBJ_GUID" type="xsd:string" use="required"/>
+		<xsd:attribute name="SEQ" type="xsd:string" use="optional"/>
+		<xsd:attribute name="IDX" type="xsd:string" use="optional"/>
+	</xsd:complexType>
+	<xsd:complexType name="DateTimeFieldType">
+		<xsd:sequence minOccurs="0">
+			<xsd:element name="Start" type="xsd:dateTime" nillable="true"/>
+			<xsd:element name="End" type="xsd:dateTime" nillable="true"/>
+			<xsd:element name="Text" type="xsd:string"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="MultiLangTextFieldType">
+		<xsd:sequence>
+			<xsd:element name="de_CH" type="xsd:string"/>
+			<xsd:element name="fr_CH" type="xsd:string"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="Gremium">
+		<xsd:sequence>
+			<xsd:element name="Guid" type="xsd:string"/>
+		</xsd:sequence>
+		<xsd:attribute name="OBJ_GUID" type="xsd:string" use="required"/>
+	</xsd:complexType>
+	<xsd:complexType name="Person">
+		<xsd:sequence>
+			<xsd:element name="Guid" type="xsd:string"/>
+		</xsd:sequence>
+		<xsd:attribute name="OBJ_GUID" type="xsd:string" use="required"/>
+	</xsd:complexType>
+	<xsd:element name="Behoerdenmandat" type="Mitgliedschaft"/>
+</xsd:schema>

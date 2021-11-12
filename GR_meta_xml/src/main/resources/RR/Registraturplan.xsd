@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema targetNamespace="http://www.cmiag.ch/cdws/RRRegistraturplan" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.cmiag.ch/cdws/RRRegistraturplan">
+	<xsd:annotation>
+		<xsd:documentation>
+			<SearchField xsi:type="SearchFieldText" Name="RegistraturplanName" BoostFactor="1" Nrs="16" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+			<SearchField xsi:type="SearchFieldText" Name="RegistraturplanNummer" BoostFactor="1" Nrs="13" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+		</xsd:documentation>
+	</xsd:annotation>
+	<xsd:complexType name="Registraturplan">
+		<xsd:sequence>
+			<xsd:element name="RegistraturplanNummer" type="xsd:string"/>
+			<xsd:element name="Parent" type="xsd:string"/>
+			<xsd:element name="Children" type="xsd:string"/>
+			<xsd:element name="RegistraturplanName" type="MultiLangTextFieldType"/>
+		</xsd:sequence>
+		<xsd:attribute name="OBJ_GUID" type="xsd:string" use="required"/>
+		<xsd:attribute name="SEQ" type="xsd:string" use="optional"/>
+		<xsd:attribute name="IDX" type="xsd:string" use="optional"/>
+	</xsd:complexType>
+	<xsd:complexType name="MultiLangTextFieldType">
+		<xsd:sequence>
+			<xsd:element name="de_CH" type="xsd:string"/>
+			<xsd:element name="fr_CH" type="xsd:string"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:element name="CustomRegistraturplan" type="Registraturplan"/>
+</xsd:schema>

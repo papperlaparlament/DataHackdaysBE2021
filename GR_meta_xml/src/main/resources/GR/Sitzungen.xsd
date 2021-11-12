@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema targetNamespace="http://www.cmiag.ch/cdws/Sitzungen" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.cmiag.ch/cdws/Sitzungen">
+	<xsd:annotation>
+		<xsd:documentation/>
+	</xsd:annotation>
+	<xsd:complexType name="Sitzung">
+		<xsd:sequence>
+			<xsd:element name="Sessionsunterlagen">
+				<xsd:complexType>
+					<xsd:choice minOccurs="0" maxOccurs="unbounded">
+						<xsd:element name="Dokument" type="Sessionsunterlage"/>
+					</xsd:choice>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="Sessionsdaten">
+				<xsd:complexType>
+					<xsd:choice minOccurs="0" maxOccurs="unbounded">
+						<xsd:element name="CustomSessionsdatum" type="Sessionsdatum"/>
+					</xsd:choice>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="Traktanden">
+				<xsd:complexType>
+					<xsd:choice minOccurs="0" maxOccurs="unbounded">
+						<xsd:element name="Traktandum" type="Traktandum"/>
+					</xsd:choice>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="Name" type="MultiLangTextFieldType"/>
+		</xsd:sequence>
+		<xsd:attribute name="OBJ_GUID" type="xsd:string" use="required"/>
+		<xsd:attribute name="SEQ" type="xsd:string" use="optional"/>
+		<xsd:attribute name="IDX" type="xsd:string" use="optional"/>
+	</xsd:complexType>
+	<xsd:complexType name="MultiLangTextFieldType">
+		<xsd:sequence>
+			<xsd:element name="de_CH" type="xsd:string"/>
+			<xsd:element name="fr_CH" type="xsd:string"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="Sessionsunterlage">
+		<xsd:sequence>
+			<xsd:element name="Guid" type="xsd:string"/>
+		</xsd:sequence>
+		<xsd:attribute name="OBJ_GUID" type="xsd:string" use="required"/>
+	</xsd:complexType>
+	<xsd:complexType name="Sessionsdatum">
+		<xsd:sequence>
+			<xsd:element name="Datum" type="DateTimeFieldType"/>
+			<xsd:element name="Zeit" type="xsd:string"/>
+			<xsd:element name="Bezeichnung" type="xsd:string"/>
+		</xsd:sequence>
+		<xsd:attribute name="OBJ_GUID" type="xsd:string" use="required"/>
+	</xsd:complexType>
+	<xsd:complexType name="DateTimeFieldType">
+		<xsd:sequence minOccurs="0">
+			<xsd:element name="Start" type="xsd:dateTime" nillable="true"/>
+			<xsd:element name="End" type="xsd:dateTime" nillable="true"/>
+			<xsd:element name="Text" type="xsd:string"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="Traktandum">
+		<xsd:sequence>
+			<xsd:element name="Guid" type="xsd:string"/>
+		</xsd:sequence>
+		<xsd:attribute name="OBJ_GUID" type="xsd:string" use="required"/>
+	</xsd:complexType>
+	<xsd:element name="Sitzung" type="Sitzung"/>
+</xsd:schema>
