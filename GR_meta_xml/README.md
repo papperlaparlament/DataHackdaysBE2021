@@ -1,0 +1,1 @@
+Goal : have data in java/runtime.

@@ -7,7 +7,7 @@ import java.net.URL;
 public class Utils {
 
     public static URL getUrl(String type, String suffix) throws MalformedURLException {
-        String path = System.getProperty("user.dir") + "\\GR_meta_xml\\src\\main\\resources\\GR\\";
+        String path = System.getProperty("user.dir") + "\\src\\main\\resources\\GR\\";
         File file = new File(path+ type + suffix);
         return file.toURI().toURL();
     }
