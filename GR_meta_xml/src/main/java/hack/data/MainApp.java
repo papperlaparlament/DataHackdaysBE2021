@@ -23,14 +23,14 @@ public class  MainApp {
     public static final Map<Class<?>, Unmarshaller> UNMARSHALLER_MAP = new HashMap<>();
 
     static {
+        Class<?>[] classes = new Class[]{
+            Dokument.class, Geschaeft.class, Gremium.class, Mitglied.class,
+            Mitgliedschaft.class, Sitzung.class, Traktandum.class
+        };
         try {
-            UNMARSHALLER_MAP.put(Dokument.class, JAXBContext.newInstance(Dokument.class).createUnmarshaller());
-            UNMARSHALLER_MAP.put(Geschaeft.class, JAXBContext.newInstance(Geschaeft.class).createUnmarshaller());
-            UNMARSHALLER_MAP.put(Gremium.class, JAXBContext.newInstance(Gremium.class).createUnmarshaller());
-            UNMARSHALLER_MAP.put(Mitglied.class, JAXBContext.newInstance(Mitglied.class).createUnmarshaller());
-            UNMARSHALLER_MAP.put(Mitgliedschaft.class, JAXBContext.newInstance(Mitgliedschaft.class).createUnmarshaller());
-            UNMARSHALLER_MAP.put(Sitzung.class, JAXBContext.newInstance(Sitzung.class).createUnmarshaller());
-            UNMARSHALLER_MAP.put(Traktandum.class, JAXBContext.newInstance(Traktandum.class).createUnmarshaller());
+            for (Class<?> classX : classes) {
+                UNMARSHALLER_MAP.put(classX, JAXBContext.newInstance(classX).createUnmarshaller());
+            }
         } catch (JAXBException e) {
             e.printStackTrace();
         }
