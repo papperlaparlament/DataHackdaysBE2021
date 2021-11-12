@@ -1,4 +1,4 @@
-package hack.data;
+package ch.opendata.hackdaysbe;
 
 import ch.cmiag.cdws.dokumente.Dokument;
 import ch.cmiag.cdws.geschaefte.Geschaeft;

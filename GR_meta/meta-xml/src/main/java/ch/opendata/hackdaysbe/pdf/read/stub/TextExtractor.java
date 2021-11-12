@@ -1,4 +1,4 @@
-package hack.data.pdf.read.stub;
+package ch.opendata.hackdaysbe.pdf.read.stub;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;

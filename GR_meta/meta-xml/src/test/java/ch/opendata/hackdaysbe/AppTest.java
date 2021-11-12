@@ -1,4 +1,4 @@
-package hack.data;
+package ch.opendata.hackdaysbe;
 
 import static org.junit.Assert.assertTrue;
 

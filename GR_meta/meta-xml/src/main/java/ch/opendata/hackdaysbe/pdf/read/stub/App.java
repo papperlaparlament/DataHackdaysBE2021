@@ -1,4 +1,4 @@
-package hack.data.pdf.read.stub;
+package ch.opendata.hackdaysbe.pdf.read.stub;
 
 import org.apache.tika.metadata.Metadata;
 import org.apache.tika.parser.ParseContext;
