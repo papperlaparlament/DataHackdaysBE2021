@@ -17,6 +17,7 @@ public class MitgliedServlet extends HttpServlet {
         response.setContentType("application/json");
         response.setStatus(HttpServletResponse.SC_OK);
         Map<String,String[]> param = request.getParameterMap();
+
         Mitglied mitglied = RawDataHolder.MITGLIED_MAP.get("c0f76d872b1549c39a9714d5df37664c");
         String json = new ObjectMapper().writeValueAsString(mitglied);
         response.getWriter().println(json);

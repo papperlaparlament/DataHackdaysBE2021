@@ -21,7 +21,7 @@ import java.util.Map;
 /**
  * @author ivan@olexyn.com
  */
-public class DataLoader {
+public class RawDataLoader {
 
     public static final Map<Class<?>, Unmarshaller> UNMARSHALLER_MAP = new HashMap<>();
     
@@ -50,7 +50,7 @@ public class DataLoader {
                 }
                 if (dataType.getClassName() == Geschaeft.class) {
                     Geschaeft geschaeft = (Geschaeft) object;
-                    RawDataHolder.GESCHAEFT_MAP.put(geschaeft.getOBJGUID(), geschaeft);
+                    RawDataHolder.getGeschaeftMap().put(geschaeft.getOBJGUID(), geschaeft);
                 }
                 if (dataType.getClassName() == Gremium.class) {
                     Gremium gremium = (Gremium) object;

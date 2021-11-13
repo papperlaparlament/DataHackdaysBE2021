@@ -1,9 +1,11 @@
 package ch.opendata.hackdayse.main;
 
-import ch.opendata.hackdaysbe.DataLoader;
+import ch.opendata.hackdaysbe.RawDataLoader;
+import ch.opendata.hackdaysbe.SimpleDataLoader;
 import com.olexyn.min.http.server.MinJettyServer;
 import com.olexyn.min.http.server.servlets.AsyncServlet;
 import com.olexyn.min.http.server.servlets.BlockingServlet;
+import com.olexyn.min.http.server.servlets.GeschaefteByMitgliedServelet;
 import com.olexyn.min.http.server.servlets.MitgliedServlet;
 import org.xml.sax.SAXException;
 
@@ -13,7 +15,8 @@ import java.io.IOException;
 public class MainApp {
 
     public static void main(String... args) throws InterruptedException, JAXBException, IOException, SAXException {
-        DataLoader.loadData();
+        RawDataLoader.loadData();
+        SimpleDataLoader.loadData();
         startServer();
         while (true) {
             Thread.sleep(1000L);
@@ -31,7 +34,7 @@ public class MainApp {
         server.addServletWithMapping("/status", BlockingServlet.class);
         server.addServletWithMapping("/heavy/async", AsyncServlet.class);
         server.addServletWithMapping("/member", MitgliedServlet.class);
-
+        server.addServletWithMapping("/geschaeft", GeschaefteByMitgliedServelet.class);
         server.start();
     }
 
