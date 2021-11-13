@@ -16,8 +16,17 @@ import java.util.Map;
  */
 public class RawDataHolder {
 
+    private static RawDataHolder local;
+
+    public static RawDataHolder getInstance() {
+        if (local == null) {
+            local = new RawDataHolder();
+        }
+        return local;
+    }
+
     public static final Map<String, Dokument> DOKUMENT_MAP = new HashMap<>();
-    public static final Map<String, Geschaeft> GESCHAEFT_MAP = new HashMap<>();
+    public final Map<String, Geschaeft> GESCHAEFT_MAP = new HashMap<>();
     public static final Map<String, Gremium>  GREMIUM_MAP = new HashMap<>();
     public static final Map<String, Mitglied>  MITGLIED_MAP = new HashMap<>();
     public static final Map<String, Mitgliedschaft>  MITGLIEDSCHAFT_MAP = new HashMap<>();
@@ -26,6 +35,9 @@ public class RawDataHolder {
 
 
 
+    public static Map<String, Geschaeft> getGeschaeftMap() {
+        return getInstance().GESCHAEFT_MAP;
+    }
 
 
 
