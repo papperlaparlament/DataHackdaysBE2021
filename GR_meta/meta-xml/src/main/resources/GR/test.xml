@@ -1,0 +1,28 @@
+<Dokument OBJ_GUID="000942d96622413ba37277602eedcd95" SEQ="34670308" IDX="Dokumente">
+    <Dokument ID="000942d96622413ba37277602eedcd95-332" FileName="2014.GEF.10709-GR-Beschlussdokument-DF-95023">
+        <Version Nr="1"/>
+        <Version Nr="2"/>
+        <Version Nr="3">
+            <Rendition Extension="pdf" Ansicht="PDF"/>
+        </Version>
+    </Dokument>
+    <Titel>
+        <de_CH>2014.GEF.10709-beschlussdokument-2014-11-18-09.00-de</de_CH>
+        <fr_CH/>
+    </Titel>
+    <Geschaeftstitel>
+        <de_CH>Verlängerung der Versorgungsplanung 2011-2014 und Anpassung des Planungskriteriums Wirtschaftlichkeit</de_CH>
+        <fr_CH>Prolongation de la planification des soins 2011-2014 et adaptation des modalités d’évaluation de l’économicité</fr_CH>
+    </Geschaeftstitel>
+    <Datum>
+        <Start>2014-11-18T00:00:00.000</Start>
+        <End>2014-11-19T00:00:00.000</End>
+        <Text>18.11.2014</Text>
+    </Datum>
+    <Dokumententyp>
+        <de_CH>GR-Beschlussdokument</de_CH>
+        <fr_CH>Document consignant les décisions du GC</fr_CH>
+    </Dokumententyp>
+    <DokumentSortKey>640</DokumentSortKey>
+    <SprachePublikation>Deutsch-Französisch</SprachePublikation>
+</Dokument>
