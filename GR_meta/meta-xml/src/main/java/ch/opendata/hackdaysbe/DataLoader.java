@@ -21,11 +21,9 @@ import java.util.Map;
 /**
  * @author ivan@olexyn.com
  */
-public class MainApp {
+public class DataLoader {
 
     public static final Map<Class<?>, Unmarshaller> UNMARSHALLER_MAP = new HashMap<>();
-    
-    public static final DataHolder DATA = new DataHolder();
     
     static {
         try {
@@ -40,7 +38,7 @@ public class MainApp {
 
     private final static String XML_SUFFIX = ".xml";
 
-    public static void main(String... args) throws JAXBException, SAXException, IOException, InterruptedException {
+    public static void loadData() throws JAXBException, SAXException, IOException, InterruptedException {
 
         for (DataType dataType : DataType.values()) {
             String filePath = Utils.filePath(dataType.getFileName(), XML_SUFFIX);
@@ -48,36 +46,33 @@ public class MainApp {
                 Object object = unmarshall(dataType.getClassName(), new StringReader(payload));
                 if (dataType.getClassName() == Dokument.class) {
                     Dokument dokument = (Dokument) object;
-                    DATA.DOKUMENT_MAP.put(dokument.getOBJGUID(), dokument);
+                    DataHolder.DOKUMENT_MAP.put(dokument.getOBJGUID(), dokument);
                 }
                 if (dataType.getClassName() == Geschaeft.class) {
                     Geschaeft geschaeft = (Geschaeft) object;
-                    DATA.GESCHAEFT_MAP.put(geschaeft.getOBJGUID(), geschaeft);
+                    DataHolder.GESCHAEFT_MAP.put(geschaeft.getOBJGUID(), geschaeft);
                 }
                 if (dataType.getClassName() == Gremium.class) {
                     Gremium gremium = (Gremium) object;
-                    DATA.GREMIUM_MAP.put(gremium.getOBJGUID(), gremium);
+                    DataHolder.GREMIUM_MAP.put(gremium.getOBJGUID(), gremium);
                 }
                 if (dataType.getClassName() == Mitglied.class) {
                     Mitglied mitglied = (Mitglied) object;
-                    DATA.MITGLIED_MAP.put(mitglied.getOBJGUID(), mitglied);
+                    DataHolder.MITGLIED_MAP.put(mitglied.getOBJGUID(), mitglied);
                 }
                 if (dataType.getClassName() == Mitgliedschaft.class) {
                     Mitgliedschaft mitgliedschaft = (Mitgliedschaft) object;
-                    DATA.MITGLIEDSCHAFT_MAP.put(mitgliedschaft.getOBJGUID(), mitgliedschaft);
+                    DataHolder.MITGLIEDSCHAFT_MAP.put(mitgliedschaft.getOBJGUID(), mitgliedschaft);
                 }
                 if (dataType.getClassName() == Sitzung.class) {
                     Sitzung sitzung = (Sitzung) object;
-                    DATA.SITZUNG_MAP.put(sitzung.getOBJGUID(), sitzung);
+                    DataHolder.SITZUNG_MAP.put(sitzung.getOBJGUID(), sitzung);
                 }
                 if (dataType.getClassName() == Traktandum.class) {
                     Traktandum traktandum = (Traktandum) object;
-                    DATA.TRAKTANDUM_MAP.put(traktandum.getOBJGUID(), traktandum);
+                    DataHolder.TRAKTANDUM_MAP.put(traktandum.getOBJGUID(), traktandum);
                 }
             }
-        }
-        while (true) {
-            Thread.sleep(1000L);
         }
     }
 
