@@ -4,9 +4,8 @@
     <groupId>ch.opendata.hackdaysbe</groupId>
     <artifactId>meta-http-server</artifactId>
     <version>0.1</version>
-    <name>min-http-server</name>
-    <!-- FIXME change it to the project's website -->
-    <url>http://www.example.com</url>
+    <name>meta-http-server</name>
+    <url>http://www.opendata.ch</url>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.7</maven.compiler.source>

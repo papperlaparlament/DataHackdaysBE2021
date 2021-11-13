@@ -1,1 +1,1 @@
-These are generated classes.
+These classes are generated from xsd resources.

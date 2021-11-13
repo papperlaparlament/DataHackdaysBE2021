@@ -11,19 +11,18 @@ import ch.cmiag.cdws.traktanden.Traktandum;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * @author ivan@olexyn.com
+ */
 public class DataHolder {
 
-    public static final Map<String, Dokument> DOKUMENT_MAP = new HashMap<>();
-    public static final Map<String, Geschaeft> GESCHAEFT_MAP = new HashMap<>();
-    public static final Map<String, Gremium>  GREMIUM_MAP = new HashMap<>();
-
-    public static final Map<String, Mitglied>  MITGLIED_MAP = new HashMap<>();
-
-    public static final Map<String, Mitgliedschaft>  MITGLIEDSCHAFT_MAP = new HashMap<>();
-
-    public static final Map<String, Sitzung>  SITZUNG_MAP = new HashMap<>();
-
-    public static final Map<String, Traktandum>  TRAKTANDUM_MAP = new HashMap<>();
+    public final Map<String, Dokument> DOKUMENT_MAP = new HashMap<>();
+    public final Map<String, Geschaeft> GESCHAEFT_MAP = new HashMap<>();
+    public final Map<String, Gremium>  GREMIUM_MAP = new HashMap<>();
+    public final Map<String, Mitglied>  MITGLIED_MAP = new HashMap<>();
+    public final Map<String, Mitgliedschaft>  MITGLIEDSCHAFT_MAP = new HashMap<>();
+    public final Map<String, Sitzung>  SITZUNG_MAP = new HashMap<>();
+    public final Map<String, Traktandum>  TRAKTANDUM_MAP = new HashMap<>();
 
 
 

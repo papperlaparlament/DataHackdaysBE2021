@@ -8,6 +8,9 @@ import ch.cmiag.cdws.mitgliedschaften.Mitgliedschaft;
 import ch.cmiag.cdws.sitzungen.Sitzung;
 import ch.cmiag.cdws.traktanden.Traktandum;
 
+/**
+ * @author ivan@olexyn.com
+ */
 public enum DataType {
     DOKUMENT(Dokument.class, "Dokumente"),
     GESCHAEFT(Geschaeft.class, "Geschaefte"),
@@ -31,12 +34,6 @@ public enum DataType {
 
     public String getFileName() {
         return fileName;
-    }
-
-    public static void  ofObj(Object obj) {
-        if (SITZUNG.getClassName().isInstance(obj) ) {
-
-        }
     }
 
 }

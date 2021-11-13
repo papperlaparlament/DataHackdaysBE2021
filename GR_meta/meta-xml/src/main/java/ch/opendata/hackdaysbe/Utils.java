@@ -12,6 +12,9 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/**
+ * @author ivan@olexyn.com
+ */
 public class Utils {
 
     public static String filePath(String type, String suffix) {

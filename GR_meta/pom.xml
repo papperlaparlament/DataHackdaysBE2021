@@ -5,9 +5,7 @@
     <artifactId>GR_meta</artifactId>
     <version>0.1</version>
     <packaging>pom</packaging>
-
-    <name>hackdaysbe</name>
-
+    <name>GR_meta</name>
     <url>http://www.opendata.ch</url>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
