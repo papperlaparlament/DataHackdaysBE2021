@@ -14,7 +14,7 @@ import java.util.Map;
 /**
  * @author ivan@olexyn.com
  */
-public class DataHolder {
+public class RawDataHolder {
 
     public static final Map<String, Dokument> DOKUMENT_MAP = new HashMap<>();
     public static final Map<String, Geschaeft> GESCHAEFT_MAP = new HashMap<>();

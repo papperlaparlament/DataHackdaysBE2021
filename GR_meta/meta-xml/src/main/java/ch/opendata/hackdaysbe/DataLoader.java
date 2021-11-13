@@ -46,31 +46,31 @@ public class DataLoader {
                 Object object = unmarshall(dataType.getClassName(), new StringReader(payload));
                 if (dataType.getClassName() == Dokument.class) {
                     Dokument dokument = (Dokument) object;
-                    DataHolder.DOKUMENT_MAP.put(dokument.getOBJGUID(), dokument);
+                    RawDataHolder.DOKUMENT_MAP.put(dokument.getOBJGUID(), dokument);
                 }
                 if (dataType.getClassName() == Geschaeft.class) {
                     Geschaeft geschaeft = (Geschaeft) object;
-                    DataHolder.GESCHAEFT_MAP.put(geschaeft.getOBJGUID(), geschaeft);
+                    RawDataHolder.GESCHAEFT_MAP.put(geschaeft.getOBJGUID(), geschaeft);
                 }
                 if (dataType.getClassName() == Gremium.class) {
                     Gremium gremium = (Gremium) object;
-                    DataHolder.GREMIUM_MAP.put(gremium.getOBJGUID(), gremium);
+                    RawDataHolder.GREMIUM_MAP.put(gremium.getOBJGUID(), gremium);
                 }
                 if (dataType.getClassName() == Mitglied.class) {
                     Mitglied mitglied = (Mitglied) object;
-                    DataHolder.MITGLIED_MAP.put(mitglied.getOBJGUID(), mitglied);
+                    RawDataHolder.MITGLIED_MAP.put(mitglied.getOBJGUID(), mitglied);
                 }
                 if (dataType.getClassName() == Mitgliedschaft.class) {
                     Mitgliedschaft mitgliedschaft = (Mitgliedschaft) object;
-                    DataHolder.MITGLIEDSCHAFT_MAP.put(mitgliedschaft.getOBJGUID(), mitgliedschaft);
+                    RawDataHolder.MITGLIEDSCHAFT_MAP.put(mitgliedschaft.getOBJGUID(), mitgliedschaft);
                 }
                 if (dataType.getClassName() == Sitzung.class) {
                     Sitzung sitzung = (Sitzung) object;
-                    DataHolder.SITZUNG_MAP.put(sitzung.getOBJGUID(), sitzung);
+                    RawDataHolder.SITZUNG_MAP.put(sitzung.getOBJGUID(), sitzung);
                 }
                 if (dataType.getClassName() == Traktandum.class) {
                     Traktandum traktandum = (Traktandum) object;
-                    DataHolder.TRAKTANDUM_MAP.put(traktandum.getOBJGUID(), traktandum);
+                    RawDataHolder.TRAKTANDUM_MAP.put(traktandum.getOBJGUID(), traktandum);
                 }
             }
         }

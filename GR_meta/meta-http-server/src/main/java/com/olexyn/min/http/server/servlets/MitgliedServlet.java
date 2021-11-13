@@ -1,9 +1,8 @@
 package com.olexyn.min.http.server.servlets;
 
 import ch.cmiag.cdws.mitglieder.Mitglied;
-import ch.opendata.hackdaysbe.DataHolder;
+import ch.opendata.hackdaysbe.RawDataHolder;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.google.gson.Gson;
 
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -18,7 +17,7 @@ public class MitgliedServlet extends HttpServlet {
         response.setContentType("application/json");
         response.setStatus(HttpServletResponse.SC_OK);
         Map<String,String[]> param = request.getParameterMap();
-        Mitglied mitglied = DataHolder.MITGLIED_MAP.get("c0f76d872b1549c39a9714d5df37664c");
+        Mitglied mitglied = RawDataHolder.MITGLIED_MAP.get("c0f76d872b1549c39a9714d5df37664c");
         String json = new ObjectMapper().writeValueAsString(mitglied);
         response.getWriter().println(json);
     }
