@@ -1,9 +1,10 @@
-# Table of contents
+### Table of contents
 1. [About](#about)
 2. [Idea](#idea)
 3. [Meta Data Model](#meta)
 4. [Web Query Example](#query)
 
+<br>
 
 ### About <a name="about"></a>
 
@@ -14,14 +15,20 @@ The data in this repository may not be used or distributed without the consent f
 
 All analytical results are to be taken as incomplete and unreliable due to the small sample size.
 
+<br>
+
 ### Idea <a name="idea"></a>
 
 ![](./idee.jpg)
+
+<br>
 
 ### Meta Data Model <a name="meta"></a>
 
 ![](./db-schema.drawio.png)
 
-### Meta Data Model <a name="query"></a>
+<br>
+
+### Web Query Example <a name="query"></a>
 
 ![](./web-query.png)
